@@ -67,5 +67,9 @@
 			"Name": "UdpMessaging",
 			"Enabled": false
 		}
+	],
+	"TargetPlatforms": [
+		"Android",
+		"WindowsNoEditor"
 	]
 }
