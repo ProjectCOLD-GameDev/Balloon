@@ -44,4 +44,10 @@ struct BALLOON_API FPlayerParameterSettings
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float breakLR; // ‰¡•ûŒü‚Ì©“®Œ¸‘¬—Í
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float speed_LR; // ‰¡•ûŒü‚ÌÅ‚‘¬“x
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float accel_LR; // ‰¡•ûŒü‚Ì‰Á‘¬“x
+
 };
