@@ -27,7 +27,7 @@ struct BALLOON_API FPlayerParameterSettings
 	float jumpPower; // ジャンプ力/自動上昇速度。0でジャンプ無効
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float jumpOK_Velocity; // 縦方向の移動量がこれ以下だったら空中ジャンプが可能
+	float jumpOK_Velocity; // 縦方向の移動量がこれ以下だったら空中ジャンプ可能<><>
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool jumpForever; // ボタンで上昇し続けるかどうか
