@@ -39,10 +39,10 @@ struct BALLOON_API FPlayerParameterSettings
 	bool autoRise; // 自動上昇するかどうか
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float riseBreak; // 自動上昇のブレーキ力
+	float riseBrake; // 自動上昇のブレーキ力
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float breakLR; // 横方向の自動減速力
+	float brakeLR; // 横方向の自動減速力
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float speed_LR; // 横方向の最高速度
